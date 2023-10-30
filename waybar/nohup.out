@@ -93,3 +93,92 @@ Traceback (most recent call last):
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /lascruces+nm?format=j1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f4ca1eb2650>: Failed to resolve 'wttr.in' ([Errno -3] Temporary failure in name resolution)"))
 [2023-06-06 17:33:27.662] [error] weather stopped unexpectedly, is it endless?
+[2023-09-04 14:56:05.751] [info] Using configuration file /home/roastbeefer/.config/waybar/config.jsonc
+[2023-09-04 14:56:05.754] [info] Using CSS file /home/roastbeefer/.config/waybar/style.css
+[2023-09-04 14:56:05.774] [info] Hyprland IPC starting
+[2023-09-04 14:56:05.775] [warning] module hyprland/window: Disabling module "hyprland/window", * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+[2023-09-04 14:56:05.776] [warning] Waybar has been built without rfkill support.
+
+** (waybar:10610): WARNING **: 14:56:05.809: gtk-layer-shell v0.4.0 may not work on GTK v3.24.38. If you experience crashes, check https://github.com/wmww/gtk-layer-shell/blob/master/compatibility.md
+[2023-09-04 14:56:05.899] [info] Bar configured (width: 1920, height: 45) for output: eDP-1
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-04 14:56:06.763] [error] weather stopped unexpectedly, is it endless?
+[2023-09-04 15:13:36.761] [info] Using configuration file /home/roastbeefer/.config/waybar/config.jsonc
+[2023-09-04 15:13:36.761] [info] Using CSS file /home/roastbeefer/.config/waybar/style.css
+[2023-09-04 15:13:36.785] [info] Hyprland IPC starting
+[2023-09-04 15:13:36.786] [warning] module hyprland/window: Disabling module "hyprland/window", * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+[2023-09-04 15:13:36.787] [warning] Waybar has been built without rfkill support.
+
+** (waybar:35847): WARNING **: 15:13:36.820: gtk-layer-shell v0.4.0 may not work on GTK v3.24.38. If you experience crashes, check https://github.com/wmww/gtk-layer-shell/blob/master/compatibility.md
+[2023-09-04 15:13:36.913] [info] Bar configured (width: 1920, height: 45) for output: eDP-1
+[2023-09-04 15:17:47.830] [info] Using configuration file /home/roastbeefer/.config/waybar/config.jsonc
+[2023-09-04 15:17:47.831] [info] Using CSS file /home/roastbeefer/.config/waybar/style.css
+[2023-09-04 15:17:47.851] [info] Hyprland IPC starting
+[2023-09-04 15:17:47.852] [warning] module hyprland/window: Disabling module "hyprland/window", * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+[2023-09-04 15:17:47.853] [warning] Waybar has been built without rfkill support.
+
+** (waybar:41881): WARNING **: 15:17:47.887: gtk-layer-shell v0.4.0 may not work on GTK v3.24.38. If you experience crashes, check https://github.com/wmww/gtk-layer-shell/blob/master/compatibility.md
+[2023-09-04 15:17:47.979] [info] Bar configured (width: 1920, height: 45) for output: eDP-1
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-04 15:17:48.887] [error] weather stopped unexpectedly, is it endless?
+[2023-09-04 15:18:48.476] [info] Using configuration file /home/roastbeefer/.config/waybar/config.jsonc
+[2023-09-04 15:18:48.476] [info] Using CSS file /home/roastbeefer/.config/waybar/style.css
+[2023-09-04 15:18:48.499] [info] Hyprland IPC starting
+[2023-09-04 15:18:48.500] [warning] module hyprland/window: Disabling module "hyprland/window", * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+[2023-09-04 15:18:48.501] [warning] Waybar has been built without rfkill support.
+
+** (waybar:43283): WARNING **: 15:18:48.533: gtk-layer-shell v0.4.0 may not work on GTK v3.24.38. If you experience crashes, check https://github.com/wmww/gtk-layer-shell/blob/master/compatibility.md
+[2023-09-04 15:18:48.623] [info] Bar configured (width: 1920, height: 45) for output: eDP-1
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-04 15:18:49.411] [error] weather stopped unexpectedly, is it endless?
+[2023-09-05 17:18:44.216] [info] Using configuration file /home/roastbeefer/.config/waybar/config.jsonc
+[2023-09-05 17:18:44.216] [info] Using CSS file /home/roastbeefer/.config/waybar/style.css
+[2023-09-05 17:18:44.239] [info] Hyprland IPC starting
+[2023-09-05 17:18:44.240] [warning] module hyprland/window: Disabling module "hyprland/window", * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+[2023-09-05 17:18:44.242] [warning] Waybar has been built without rfkill support.
+
+** (waybar:5548): WARNING **: 17:18:44.275: gtk-layer-shell v0.4.0 may not work on GTK v3.24.38. If you experience crashes, check https://github.com/wmww/gtk-layer-shell/blob/master/compatibility.md
+[2023-09-05 17:18:44.365] [info] Bar configured (width: 1920, height: 45) for output: eDP-1
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("wttr.in")), port: None, path: "/lascruces+nm", query: Some("format=j1"), fragment: None }, source: hyper::Error(Connect, ConnectError("dns error", Custom { kind: Uncategorized, error: "failed to lookup address information: Temporary failure in name resolution" })) }', src/rest_api.rs:211:10
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 16:28:11.326] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 16:33:12.611] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 16:38:13.669] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 16:43:14.623] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 16:48:15.466] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 16:53:16.327] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 16:58:18.176] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 17:03:18.964] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 17:08:19.793] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-09-06 17:13:20.633] [error] weather stopped unexpectedly, is it endless?

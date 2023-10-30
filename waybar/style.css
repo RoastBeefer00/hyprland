@@ -28,7 +28,12 @@ tooltip {
 
 #workspaces button.active {
     /* color: #a6adc8; */
-    color: #a6e3a1;
+    /* color: #a6e3a1; */
+    color: #89b4fa;
+    /* color: #FFFFFF; */
+    /* color: #a6adc8; */
+    /* background: #89b4fa; */
+    /* border-radius: 16px; */
 }
 
 #workspaces button.focused {
@@ -111,6 +116,7 @@ tooltip {
 
 #clock {
     color: #fab387;
+    /* color: #a6e3a1; */
     border-radius: 10px 0px 0px 10px;
     margin-left: 5px;
     border-right: 0px;
@@ -144,7 +150,19 @@ tooltip {
 
 #custom-weather {
     color: #b4befe;
+    /* border-radius: 0px 10px 10px 0px; */
+    border-right: 0px;
+    margin-left: 0px;
+}
+
+#custom-endright {
+    /* color: #b4befe; */
+    color: #1e1e2e;
+    background: #1e1e2e;
     border-radius: 0px 10px 10px 0px;
     border-right: 0px;
     margin-left: 0px;
+    margin: 3px 0px;
+    margin-top: 10px;
+    /* padding: 8px; */
 }
