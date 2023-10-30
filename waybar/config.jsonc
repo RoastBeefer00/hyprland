@@ -8,12 +8,15 @@
     "height": 0,
     "modules-left": [
         "clock",
+        "custom/weather",
+        "custom/endright"
         // "cpu",
         // "memory",
-        "custom/weather",
-        "wlr/workspaces"
     ],
-    "modules-center": ["hyprland/window"],
+    "modules-center": [
+        "wlr/workspaces",
+        "hyprland/window"
+    ],
     "modules-right": [
         "tray",
         // "custom/updates",
@@ -24,7 +27,6 @@
         "battery"
         // "pulseaudio#microphone"
     ],
-
     "hyprland/window": {
         "format": "{}"
     },
@@ -34,12 +36,12 @@
         "all-outputs": true,
         "on-click": "activate",
         // "format": "{icon}",
-	"persistent worksspaces": {
-		"1": [],
-		"2": [],
-		"3": [],
-		"4": []
-	}
+        "persistent worksspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": []
+        }
         // "format-icons": {
         //     "1": "",
         //     "2": "",
@@ -52,7 +54,7 @@
         //   }
     },
     "battery": {
-	"format": "󰁹 {}%"	
+        "format": "󰁹 {}%"	
     },
     "cpu": {
         "interval": 10,
@@ -85,8 +87,8 @@
         "tooltip" : true,
         "format" : "{}",
         "restart-interval" : 300,
-        "exec" : "~/.config/waybar/scripts/waybar-wttr.py",
-        "return-type" : "json"
+        "exec" : "/usr/local/bin/weather"
+        // "return-type" : "json"
     },
     "tray": {
         "icon-size": 13,
@@ -98,7 +100,7 @@
 	"format-disconnected": "󰖪 disconnected"
     },
     "clock": {
-        "format": "{: %R   %m/%d}",
+        "format": "{: %I:%M %p   %m/%d}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
     "pulseaudio": {
@@ -128,5 +130,10 @@
         "on-scroll-up": "pamixer --default-source -i 5",
         "on-scroll-down": "pamixer --default-source -d 5",
         "scroll-step": 5
+    },
+    "custom/endright": {
+        "format": "_",
+        "interval": "once",
+        "tooltip": false
     }
 }
