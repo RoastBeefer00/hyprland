@@ -1,0 +1,44 @@
+window {
+        background-color: rgb (30, 30, 46);
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 4px;
+        border-color: rgb (166, 227, 161);
+}
+
+/* Outer bar container, takes all the window width/height */
+#outer-box {
+	margin: 0px;
+    border-width: 2px;
+    border-color: rgb (166, 227, 161);
+}
+
+/* Inner bar container, surrounds buttons */
+#inner-box {
+	/* background-color: rgba (0, 0, 0, 0.85); */
+    background-color: rgb (30, 30, 46);
+	border-radius: 10px;
+	/* border-style: none; */
+	border-width: 2px;
+	/* border-color: rgba (156, 142, 122, 0.7); */
+    border-color: rgb (166, 227, 161);
+	padding: 5px;
+	margin: 5px;
+}
+
+button, image {
+	background: none;
+	border: none;
+	box-shadow: none;
+    color: rgb (166, 227, 161);
+}
+
+button {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;
+}
+
+button:hover {
+	background-color: rgba (255, 255, 255, 0.1)
+}
