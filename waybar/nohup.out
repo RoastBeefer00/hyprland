@@ -182,3 +182,44 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Error("expected value", line: 1, column: 1)', src/rest_api.rs:214:64
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 [2023-09-06 17:13:20.633] [error] weather stopped unexpectedly, is it endless?
+[2023-12-09 17:50:25.094] [info] Using configuration file /home/roastbeefer/.config/waybar/config.jsonc
+[2023-12-09 17:50:25.097] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2023-12-09 17:50:25.097] [info] Using CSS file /home/roastbeefer/.config/waybar/style.css
+[2023-12-09 17:50:25.102] [warning] Mapping is not an object
+[2023-12-09 17:50:25.102] [info] Hyprland IPC starting
+[2023-12-09 17:50:25.345] [info] Bar configured (width: 1920, height: 32) for output: eDP-1
+[2023-12-09 17:52:29.950] [info] Using configuration file /home/roastbeefer/.config/waybar/config.jsonc
+[2023-12-09 17:52:29.953] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2023-12-09 17:52:29.953] [info] Using CSS file /home/roastbeefer/.config/waybar/style.css
+[2023-12-09 17:52:29.958] [warning] Mapping is not an object
+[2023-12-09 17:52:29.958] [info] Hyprland IPC starting
+[2023-12-09 17:52:30.197] [info] Bar configured (width: 1920, height: 32) for output: eDP-1
+[2023-12-09 17:58:40.356] [info] Quitting.
+
+** (waybar:44654): CRITICAL **: 17:58:40.372: static void Glib::DispatchNotifier::unreference_instance(Glib::DispatchNotifier*, const Glib::Dispatcher*): assertion 'instance == notifier' failed
+[2023-12-09 17:59:47.767] [info] Using configuration file /home/roastbeefer/.config/waybar/config.jsonc
+[2023-12-09 17:59:47.769] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2023-12-09 17:59:47.769] [info] Using CSS file /home/roastbeefer/.config/waybar/style.css
+[2023-12-09 17:59:47.774] [warning] Mapping is not an object
+[2023-12-09 17:59:47.774] [info] Hyprland IPC starting
+[2023-12-09 17:59:48.029] [info] Bar configured (width: 1920, height: 32) for output: eDP-1
+thread 'main' panicked at src/rest_api.rs:211:10:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("wttr.in")), port: None, path: "/lascruces+nm", query: Some("format=j1"), fragment: None }, source: hyper::Error(Connect, ConnectError("dns error", Custom { kind: Uncategorized, error: "failed to lookup address information: Temporary failure in name resolution" })) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-12-09 18:17:36.544] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at src/rest_api.rs:211:10:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("wttr.in")), port: None, path: "/lascruces+nm", query: Some("format=j1"), fragment: None }, source: hyper::Error(Connect, ConnectError("dns error", Custom { kind: Uncategorized, error: "failed to lookup address information: Temporary failure in name resolution" })) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-12-10 09:50:02.668] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at src/rest_api.rs:211:10:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("wttr.in")), port: None, path: "/lascruces+nm", query: Some("format=j1"), fragment: None }, source: hyper::Error(Connect, ConnectError("dns error", Custom { kind: Uncategorized, error: "failed to lookup address information: Temporary failure in name resolution" })) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-12-10 15:48:22.547] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at src/rest_api.rs:211:10:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("wttr.in")), port: None, path: "/lascruces+nm", query: Some("format=j1"), fragment: None }, source: hyper::Error(Connect, ConnectError("dns error", Custom { kind: Uncategorized, error: "failed to lookup address information: Temporary failure in name resolution" })) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-12-11 16:48:54.581] [error] weather stopped unexpectedly, is it endless?
+thread 'main' panicked at src/rest_api.rs:211:10:
+called `Result::unwrap()` on an `Err` value: reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("wttr.in")), port: None, path: "/lascruces+nm", query: Some("format=j1"), fragment: None }, source: hyper::Error(Connect, ConnectError("dns error", Custom { kind: Uncategorized, error: "failed to lookup address information: Temporary failure in name resolution" })) }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2023-12-11 17:37:48.530] [error] weather stopped unexpectedly, is it endless?
